@@ -1,11 +1,48 @@
 .demo-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+
     li {
+        border: 1px solid #ccc;
+
         figure {
-            border: 1px solid #ccc;
             padding: 10px;
 
             img {
                 width: 100%;
+            }
+
+            figcaption {
+                font-size: 1rem;
+                padding: 30px 10px 10px;
+
+                h3 {
+                    padding-bottom: 16px !important;
+                    text-align: left !important;
+                }
+                .price {
+                    padding-bottom: 4px;
+                }
+                .desc {
+                    padding-bottom: 20px;
+                }
+                .cta {
+                    padding: 0 20px;
+                }
+            }
+        }
+
+        &:nth-child(1) {
+            grid-column: span 3;
+
+            figure {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+                img {
+                    grid-column: span 2;
+                }
             }
         }
     }
