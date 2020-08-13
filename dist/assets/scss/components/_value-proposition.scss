@@ -8,7 +8,8 @@
     h2 {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 30px;
-        
+        padding: 0 20px;
+
         &:after {
             content: '';
             display: block;
@@ -19,7 +20,7 @@
         }
     }
 
-    h3, 
+    h3,
     p {
         color: #444;
     }
@@ -36,21 +37,19 @@
         line-height: 1.57143;
     }
 
-    
-  
     > ul {
-    padding: 0 12px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(336px, 1fr));
-      grid-gap: 1rem;
+        padding: 0 12px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(336px, 1fr));
+        grid-gap: 1rem;
     }
-   
+
     li {
         text-align: center;
     }
-    
+
     .widget-value-proposition-item-content {
         margin-top: 16px;
     }
-    
-  }
+
+}
