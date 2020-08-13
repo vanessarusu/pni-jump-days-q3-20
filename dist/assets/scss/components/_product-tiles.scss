@@ -1,7 +1,8 @@
 .demo-layout {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     grid-gap: 1rem;
+    grid-auto-flow: dense;
 
     li {
         border: 1px solid #ccc;
@@ -38,7 +39,7 @@
 
             figure {
                 display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
 
                 img {
                     grid-column: span 2;
