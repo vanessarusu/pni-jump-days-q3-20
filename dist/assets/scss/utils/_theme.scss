@@ -1,0 +1,121 @@
+
+// COLOURS --------------------------------------------------
+
+// primary colors
+$staples-red:                                #CC0000;
+$staples-black:                              #000000;
+$staples-white:                              #FFFFFF;
+$staples-blue:                               #0070C9;
+$staples-blue-light:                         #00BFFF;
+
+// secondary colors
+$staples-green:                              #D0DF00;
+
+// gray tones 
+$staples-charcoal:                           #444444;
+$staples-smoke:                              #7D7D7D;
+$staples-steel:                              #A1A1A1;
+$staples-sterling:                           #CCCCCC;
+$staples-light:                              #E7E7E7;
+$staples-light-alt:                          #7D7D7D;
+$staples-lighter:                            #F2F2F2;
+$staples-disclaimer:                         #909090;
+$staples-grey:								 #F9F9F9;
+
+// BACKGROUNDS, FONTS AND LINKS ------------------------------
+
+// background colors
+$background-color-dark:	                     $staples-charcoal;
+$background-color-light:                     $staples-lighter;
+$background-color-light-alt:                 #F3F3F3;
+$background-color-lightest:                  $staples-white;
+
+// global
+$body-background-color:                      $background-color-light-alt;
+
+// font colors
+$font-color-light: 	                         $staples-white;
+$font-color-light-alt:                       $staples-light-alt;
+$font-color-lighter:                         $staples-lighter;
+$font-color-dark:                            $staples-black;
+$font-color-dark-alt:                        $staples-charcoal;
+$font-color-inactive:                        $staples-sterling;
+$font-color-highlight:                       $staples-blue;
+$font-color-emphasis:                        $staples-black;
+
+// link colors 
+$link-color-hover: 	                         $staples-red;
+$link-color-alt: 	                         $staples-blue;
+$link-color-alt-hover:						 $staples-blue-light;
+
+
+// MAIN NAVIGATION ----------------------------------
+
+// global navigation
+$nav-parent-background:		                 $staples-black;
+$staples-primary: 			                 $staples-red;
+$search-placeholder-color:	                 $staples-sterling; 
+
+$main-links-color: 		                     $staples-black;
+$main-links-emphasis-color:	                 $staples-red;
+$flyout-title-color: 		                 $staples-black;
+$flyout-child-link-hover: 	                 $staples-red;
+$flyout-bg:					                 $staples-white;
+$nav-link-hover-bg:                          #EDEDED;
+
+// cart
+$cart-color: 				                 $staples-red;
+$cart-color-item-count-holder:               $cart-color;
+$cart-color-mobile:			                 $staples-white;
+
+// homepage slider
+$carousel-arrows-color:		                 $staples-red;
+
+// LOGIN REGISTRATION ---------------------------------
+$account-grey:                               #909090;
+$validation-green:                           #40C922;
+
+
+//BUTTONS ---------------------------------------------
+$btn-primary:                                $staples-red;
+$btn-primary-hover:                          #DD0000;
+$btn-pagination:                             $staples-charcoal;
+$btn-alt-highlight:                          $staples-red;
+$btn-secondary-border: 						 #E7E7E7; 
+$btn-dark-red:                               darken($staples-red, 8%);	
+$btn-dark-blue:                              darken($staples-blue, 20%);
+ 
+
+
+// TBD Variables not yet specified ----------------------------------------
+
+
+$btn-inverse:                               $btn-primary; // update or phase out
+$btn-light:                                 $btn-primary; // update or phase out
+$btn-alt-dark:                              #20201f; // update or phase out
+$banner-background-color:                   #e6e7e8; // <-- update when banners is approved
+$font-color-inactive-alt:                   $staples-sterling; // <-- phase this out when working on inner pages
+$background-color-dark-alt:                 $staples-black; // <-- phase out?
+$pricing-table-grey:                        #F7F7F7;
+$pricing-table-border:                      #E0E0E0;
+$pricing-table-green:                       #D0DF00;
+
+//borders 
+$border-primary: #f8f8f8;
+$border-link-dropdown: #d8d8d8;
+
+//forms
+$active-form: #0092DB;
+$placeholder-text: #494949;
+
+//popups
+$btn-container: #282826;
+$font-color-error:                           $staples-red;
+$checkmark-bg: #0092db;
+$checkmark-hover-bg: #f5fcff;
+
+//Product Details/SKU page
+$color-theme-active: $staples-black;
+$color-swatch-border: #7d7d7d;
+$color-swatch-border-active: #0070c9;
+$color-swatch-border-none: #cc0000;
