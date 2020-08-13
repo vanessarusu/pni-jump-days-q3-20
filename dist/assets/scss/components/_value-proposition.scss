@@ -1,0 +1,55 @@
+.widget-value-proposition {
+
+    h2,
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        padding: 0 20px;
+
+        &:after {
+            content: '';
+            display: block;
+            margin: 10px 0 20px;
+            height: 3px;
+            width: 16px;
+            background: #CC0000;
+        }
+    }
+
+    h3,
+    p {
+        color: #444;
+    }
+
+    h3 {
+        font-family: Arial Bold, Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.57143;
+    }
+
+    > ul {
+        padding: 0 12px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(336px, 1fr));
+        grid-gap: 1rem;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    .widget-value-proposition-item-content {
+        margin-top: 16px;
+    }
+
+}
