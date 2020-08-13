@@ -7,6 +7,25 @@
             img {
                 width: 100%;
             }
+
+            figcaption {
+                font-size: 1rem;
+                padding: 30px 10px 10px;
+
+                h3 {
+                    padding-bottom: 16px !important;
+                    text-align: left !important;
+                }
+                .price {
+                    padding-bottom: 4px;
+                }
+                .desc {
+                    padding-bottom: 20px;
+                }
+                .cta {
+                    padding: 0 20px;
+                }
+            }
         }
     }
 }
