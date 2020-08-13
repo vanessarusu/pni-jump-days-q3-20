@@ -4,9 +4,9 @@
     grid-gap: 1rem;
 
     li {
+        border: 1px solid #ccc;
 
         figure {
-            border: 1px solid #ccc;
             padding: 10px;
 
             img {
@@ -38,7 +38,7 @@
 
             figure {
                 display: grid;
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 
                 img {
                     grid-column: span 2;
