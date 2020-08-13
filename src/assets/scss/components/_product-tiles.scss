@@ -1,5 +1,10 @@
 .demo-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+
     li {
+
         figure {
             border: 1px solid #ccc;
             padding: 10px;
@@ -24,6 +29,19 @@
                 }
                 .cta {
                     padding: 0 20px;
+                }
+            }
+        }
+
+        &:nth-child(1) {
+            grid-column: span 3;
+
+            figure {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+
+                img {
+                    grid-column: span 2;
                 }
             }
         }
