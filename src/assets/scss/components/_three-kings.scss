@@ -1,13 +1,3 @@
-.jump-item-container {
-    min-block-size: 100%;
-    min-inline-size: 100%;
-    margin: 0;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .jump-section3 {
     max-width: 1190px;
     margin: 0 auto 30px;
@@ -32,25 +22,20 @@
     }
 
     p {
-        font-family: "HelveticaNeueRoman","Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-align: center;
     }
 }
 
-
 .jump-item-list {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 2ch;
-    padding: 2ch;
-    margin: 2ch;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 }
 
 .jump-item {
     max-inline-size: 36ch;
     padding: 1ch 2ex;
+    text-align: center;
 
     img {
         max-width: 100%;
