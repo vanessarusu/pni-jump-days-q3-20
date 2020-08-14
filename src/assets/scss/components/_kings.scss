@@ -1,0 +1,45 @@
+.three-kings {
+  margin-bottom: 40px;
+  
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 0 20px;
+
+    &:after {
+        content: '';
+        display: block;
+        margin: 10px 0 20px;
+        height: 3px;
+        width: 16px;
+        background: #CC0000;
+    }
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+    padding: 0 20px;
+    margin: 40px 0;
+    color: #444;
+
+    li {
+      text-align: center;
+    }
+
+    h3 {
+      font-weight: bold;
+      font-size: 18px;
+      color: #444;
+      margin-bottom: 10px;
+    }
+
+    .image {
+      margin: 20px auto;
+      height: 161px;
+      width: 161px;
+      background: white;
+      border-radius: 50%;
+    }
+  }
+}
