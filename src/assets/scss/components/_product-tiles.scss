@@ -5,13 +5,13 @@
 
     .content-container {
         position: relative;
-        padding: 4rem 1rem;
+        padding: 3rem 1rem;
         max-width: 1440px;
-        margin: 0 auto;
+        margin: 1rem auto;
     }
 
     .title {
-        font-size: clamp(1.375rem, 2.5vw, 2.2rem);
+        font-size: clamp(1.375rem, 2.2vw, 2rem);
         position: relative;
         &:after {
             content: '';
@@ -35,6 +35,7 @@
             clamp(222px, 25%, 320px)
         );
         overflow-x: scroll;
+        overflow-y: hidden;
         scroll-snap-type: x proximity;
     }
 
