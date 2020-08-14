@@ -29,20 +29,23 @@
         font-family: Arial Bold, Arial, Helvetica, sans-serif;
         font-weight: bold;
         font-size: 20px;
-        line-height: 1.5;
+        line-height: 1.2;
+        margin-bottom: 8px;
     }
 
     p {
         font-size: 14px;
         line-height: 1.57143;
     }
-
+    
+    // Adaptive Component Styling - START
     > ul {
         padding: 0 12px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(336px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(174px, 1fr));
         grid-gap: 1rem;
     }
+    // Adaptive Component Styling - END
 
     li {
         text-align: center;
